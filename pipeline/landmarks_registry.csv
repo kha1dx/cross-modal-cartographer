@@ -1,0 +1,280 @@
+landmark_id,canonical_name,landmark_type,historical_era,geographic_region,city,architectural_style,coordinates_lat,coordinates_lon
+1,6_October_Bridge,Bridge,Contemporary,Greater Cairo,Cairo,Contemporary,30.0444,31.2357
+2,Abdeen_Palace,Palace,Ottoman,Greater Cairo,Cairo,Ottoman,30.0444,31.2357
+3,Abu_Ghurab,Archaeological Site,Pharaonic,Greater Cairo,Abu Ghurab,Ancient Egyptian,29.8971,31.1928
+4,Abu_Haggag_Mosque,Mosque,Islamic,Upper Egypt,Luxor,Islamic,25.6872,32.6396
+5,Abu_Qir_Bay,Natural Site,Natural,Alexandria,Alexandria,N/A,31.2001,29.9187
+6,Abu_el-Abbas_el-Mursi_Mosque,Mosque,Islamic,Alexandria,Alexandria,Islamic,31.2001,29.9187
+7,Agiba_beach,Natural Site,Natural,Alexandria,Marsa Matrouh,N/A,31.3453,27.2374
+8,Aguilkia_Island,Natural Site,Pharaonic,Upper Egypt,Aswan,Ancient Egyptian,24.0889,32.8998
+9,Ahmed_Shawki_Museum,Museum,Contemporary,Greater Cairo,Cairo,Contemporary,30.0444,31.2357
+10,Al-Aqmar_Mosque,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+11,Al-Ashraf_Mosque,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+12,Al-Azhar_Park_(Cairo),Garden/Park,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+13,Al-Fath_Mosque,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+14,Al-Ghuri_Complex,Complex,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+15,Al-Jawhara_Palace_museum,Museum,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+16,Al-Manyal_Palace_Museum,Museum,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+17,Al-Nur_Mosque,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+18,Al-Qurn,Natural Site,Natural,Upper Egypt,Luxor,N/A,25.6872,32.6396
+19,Al-Rifa'i_Mosque,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+20,Al-Salih_Tala'i_Mosque,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+21,Al-Sayeda_Nafeesah_Mosque,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+22,Al-Sayeda_Zainab_Mosque,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+23,Al-Shate'e_Mosque,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+24,Al_Fattah_Al_Alim_Mosque_(Cairo),Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+25,Alexandria_National_Museum,Museum,Contemporary,Alexandria,Alexandria,Contemporary,31.2001,29.9187
+26,Alexandria_Opera_House,Opera House,Contemporary,Alexandria,Alexandria,Contemporary,31.2001,29.9187
+27,Alexandria_Port,Infrastructure,Islamic,Alexandria,Alexandria,Islamic,31.2001,29.9187
+28,Alexandria_Stadium,Stadium,Contemporary,Alexandria,Alexandria,Contemporary,31.2001,29.9187
+29,Alexandria_Zoo,Garden/Park,Contemporary,Alexandria,Alexandria,Contemporary,31.2001,29.9187
+30,Amada,Temple,Pharaonic,Upper Egypt,Nubia,Ancient Egyptian,22.3372,31.6258
+31,Amir_Taz_Palace,Palace,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+32,Amr_Ibn_al-Aas_Mosque_(Damietta),Mosque,Islamic,Nile Delta,Damietta,Islamic,31.4165,31.8133
+33,Antoniadis_Palace,Palace,Contemporary,Alexandria,Alexandria,Contemporary,31.2001,29.9187
+34,Aqsunqur_Mosque,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+35,Aquarium_Grotto_Garden,Garden/Park,Contemporary,Alexandria,Alexandria,Contemporary,31.2001,29.9187
+36,Aswan_Botanical_Garden,Garden/Park,Contemporary,Upper Egypt,Aswan,Contemporary,24.0889,32.8998
+37,Aswan_High_Dam,Dam,Contemporary,Upper Egypt,Aswan,Contemporary,24.0889,32.8998
+38,Aswan_Low_Dam,Dam,Contemporary,Upper Egypt,Aswan,Contemporary,24.0889,32.8998
+39,Aswan_Museum,Museum,Contemporary,Upper Egypt,Aswan,Contemporary,24.0889,32.8998
+40,Attarine_Mosque,Mosque,Islamic,Alexandria,Alexandria,Islamic,31.2001,29.9187
+41,Bab_Zuwayla,Gate,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+42,Bab_al-Futuh,Gate,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+43,Bab_al-Nasr_(Cairo),Gate,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+44,Bagawat,Necropolis,Coptic/Byzantine,Western Desert,Kharga,Coptic,25.4486,30.5559
+45,Bahr_Yousef_canal,Canal,Islamic,Middle Egypt,Faiyum,Islamic,29.3084,30.8428
+46,Baron_Empain_Palace,Palace,Ottoman,Greater Cairo,Cairo,Ottoman,30.0444,31.2357
+47,Bayt_Al-Suhaymi,Historic House,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+48,Ben_Ezra_Synagogue,Synagogue,Medieval,Greater Cairo,Cairo,Medieval,30.0444,31.2357
+49,Beni_Hassan,Tomb,Pharaonic,Upper Egypt,Minya,Ancient Egyptian,28.1099,30.7503
+50,Bent_Pyramid,Pyramid,Pharaonic,Greater Cairo,Dahshur,Ancient Egyptian,29.7911,31.2102
+51,Bibliotheca_Alexandrina,Library,Contemporary,Alexandria,Alexandria,Contemporary,31.2001,29.9187
+52,Bibliotheca_Alexandrina_planetarium,Library,Contemporary,Alexandria,Alexandria,Contemporary,31.2001,29.9187
+53,Black_Pyramid_of_Amenemhat_III,Pyramid,Pharaonic,Greater Cairo,Dahshur,Ancient Egyptian,29.7911,31.2102
+54,Blue_Hole_(Red_Sea),Natural Site,Natural,Sinai,Dahab,N/A,28.5097,34.5149
+55,Borg_El_Arab_Stadium,Stadium,Contemporary,Alexandria,Alexandria,Contemporary,31.2001,29.9187
+56,Cairo_Citadel,Fortress,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+57,Cairo_International_Stadium,Stadium,Contemporary,Greater Cairo,Cairo,Contemporary,30.0444,31.2357
+58,Cairo_Opera_House,Opera House,Contemporary,Greater Cairo,Cairo,Contemporary,30.0444,31.2357
+59,"Cathedral_of_St._Mark,_Alexandria",Church,Coptic/Byzantine,Alexandria,Alexandria,Coptic,31.2001,29.9187
+60,Children's_Civilisation_and_Creativity_Centre,Museum,Contemporary,Greater Cairo,Cairo,Contemporary,30.0444,31.2357
+61,Citadel_of_Qaitbay,Fortress,Islamic,Alexandria,Alexandria,Islamic,31.2001,29.9187
+62,City_of_the_dead_(Cairo),Tomb,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+63,Collections_of_the_Imhotep_Museum_in_Saqqara,Museum,Pharaonic,Greater Cairo,Saqqara,Ancient Egyptian,29.8712,31.2165
+64,Colossi_of_Memnon,Monument,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+65,Coloured_Canyon,Natural Site,Natural,Sinai,Sinai,N/A,29.5,33.5
+66,Coptic_Museum_in_Cairo,Museum,Coptic/Byzantine,Greater Cairo,Cairo,Coptic,30.0444,31.2357
+67,Corniche_(Alexandria),Neighborhood,Contemporary,Alexandria,Alexandria,Contemporary,31.2001,29.9187
+68,"Crystal_Mountain,_White_Desert",Natural Site,Natural,Western Desert,Bahariya,N/A,28.3394,28.868
+69,Deir_el-Bahari,Temple,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+70,Deir_el-Medina,Archaeological Site,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+71,Deir_el-Muharraq,Monastery,Coptic/Byzantine,Upper Egypt,Assiut,Coptic,27.1808,31.1837
+72,Deir_el-Qadisa_Damyana,Monastery,Coptic/Byzantine,Nile Delta,Damietta,Coptic,31.4165,31.8133
+73,Dendera_Temple_complex,Temple,Pharaonic,Upper Egypt,Qena,Ancient Egyptian,26.1551,32.716
+74,Desouk_Stadium,Stadium,Contemporary,Nile Delta,Desouk,Contemporary,31.1282,30.6433
+75,Dra_Abu_el-Naga,Tomb,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+76,Dream_Park,Garden/Park,Contemporary,Greater Cairo,Cairo,Contemporary,30.0444,31.2357
+77,EL-Safa_Park,Garden/Park,Contemporary,Greater Cairo,Cairo,Contemporary,30.0444,31.2357
+78,Edfu_Temple,Temple,Pharaonic,Upper Egypt,Edfu,Ancient Egyptian,24.9779,32.875
+79,Egyptian_Geological_Museum,Museum,Contemporary,Greater Cairo,Cairo,Contemporary,30.0444,31.2357
+80,Egyptian_Museum_(Cairo),Museum,Contemporary,Greater Cairo,Cairo,Contemporary,30.0444,31.2357
+81,Egyptian_National_Library,Library,Contemporary,Greater Cairo,Cairo,Contemporary,30.0444,31.2357
+82,Egyptian_National_Military_Museum,Museum,Contemporary,Greater Cairo,Cairo,Contemporary,30.0444,31.2357
+83,"El-Bahr_mosque,_Dumyat",Mosque,Islamic,Nile Delta,Damietta,Islamic,31.4165,31.8133
+84,"El-Ma'eini_mosque,_Dumyat",Mosque,Islamic,Nile Delta,Damietta,Islamic,31.4165,31.8133
+85,El_Alamein_Military_Museum,Museum,Contemporary,Nile Delta,El Alamein,Contemporary,30.8399,28.9551
+86,El_Ferdan_Railway_Bridge,Bridge,Contemporary,Canal Zone,Ismailia,Contemporary,30.5852,32.2654
+87,Elephantine,Natural Site,Pharaonic,Upper Egypt,Aswan,Ancient Egyptian,24.0889,32.8998
+88,Eliyahu_Hanavi_Synagogue_(Alexandria),Synagogue,Contemporary,Alexandria,Alexandria,Contemporary,31.2001,29.9187
+89,Emir_Qurqumas_complex,Complex,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+90,Esna_Temple,Temple,Pharaonic,Upper Egypt,Esna,Ancient Egyptian,25.2934,32.556
+91,Faiyum_Zoo,Garden/Park,Contemporary,Middle Egypt,Faiyum,Contemporary,29.3084,30.8428
+92,Famine_stele,Monument,Pharaonic,Upper Egypt,Aswan,Ancient Egyptian,24.0889,32.8998
+93,Fatima_Khatun_Mosque,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+94,Fatimid_Cemetery_in_Aswan,Tomb,Islamic,Upper Egypt,Aswan,Islamic,24.0889,32.8998
+95,"Garden_City,_Cairo",Neighborhood,Contemporary,Greater Cairo,Cairo,Contemporary,30.0444,31.2357
+96,Gayer-Anderson_Museum,Museum,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+97,Gebel_el-Silsila,Natural Site,Pharaonic,Upper Egypt,Kom Ombo,Ancient Egyptian,24.4524,32.9279
+98,"Gebel_el-Teir,_el-Kharga",Natural Site,Islamic,Western Desert,Kharga,Islamic,25.4486,30.5559
+99,Gezira,Neighborhood,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+100,Gezira_Center_for_Modern_Art,Museum,Contemporary,Greater Cairo,Cairo,Contemporary,30.0444,31.2357
+101,Gidi_Pass,Natural Site,Natural,Sinai,Sinai,N/A,29.5,33.5
+102,Gilf_Kebir_Plateau,Natural Site,Prehistoric,Western Desert,Western Desert,Prehistoric,26.0,28.0
+103,"Giyushi_Mosque,_Cairo",Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+104,Giza_Plateau,Archaeological Site,Pharaonic,Greater Cairo,Giza,Ancient Egyptian,29.9765,31.1313
+105,Giza_Zoo,Garden/Park,Contemporary,Greater Cairo,Giza,Contemporary,29.9765,31.1313
+106,Giza_pyramid_complex,Complex,Pharaonic,Greater Cairo,Giza,Ancient Egyptian,29.9765,31.1313
+107,Grand_Egyptian_Museum,Museum,Contemporary,Greater Cairo,Giza,Contemporary,29.9765,31.1313
+108,Great_Hypostyle_Hall_of_Karnak,Temple,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+109,Great_Pyramid_of_Giza,Pyramid,Pharaonic,Greater Cairo,Giza,Ancient Egyptian,29.9765,31.1313
+110,Great_Sphinx_of_Giza,Monument,Pharaonic,Greater Cairo,Giza,Ancient Egyptian,29.9765,31.1313
+111,Great_Temple_of_the_Aten,Temple,Pharaonic,Upper Egypt,Minya,Ancient Egyptian,28.1099,30.7503
+112,"Greco-Roman_Museum,_Alexandria",Museum,Greco-Roman,Alexandria,Alexandria,Greco-Roman,31.2001,29.9187
+113,"Greek_Orthodox_Cathedral_of_Evangelismos,_Alexandria",Church,Coptic/Byzantine,Alexandria,Alexandria,Coptic,31.2001,29.9187
+114,Green_Island_(Egypt),Natural Site,Natural,Alexandria,Alexandria,N/A,31.2001,29.9187
+115,Hanging_Church_(Cairo),Church,Coptic/Byzantine,Greater Cairo,Cairo,Coptic,30.0444,31.2357
+116,Hatem_Mosque,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+117,Heliopolis_Palace,Palace,Ottoman,Greater Cairo,Cairo,Ottoman,30.0444,31.2357
+118,Hurghada_Grand_Aquarium,Garden/Park,Contemporary,Red Sea Coast,Hurghada,Contemporary,27.2579,33.8116
+119,Islamic_Cairo,Neighborhood,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+120,Island_of_Bigeh,Natural Site,Pharaonic,Upper Egypt,Aswan,Ancient Egyptian,24.0889,32.8998
+121,KV17,Tomb,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+122,KV62,Tomb,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+123,Karnak_precinct_of_Amun-Ra,Temple,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+124,Khan_el-Khalili,Market,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+125,Khayrbak_Mosque,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+126,Kiosk_of_Qertassi,Temple,Pharaonic,Upper Egypt,Aswan,Ancient Egyptian,24.0889,32.8998
+127,Kiosk_of_Trajan_in_Philae,Temple,Greco-Roman,Upper Egypt,Aswan,Greco-Roman,24.0889,32.8998
+128,Kitchener's_Island,Natural Site,Contemporary,Upper Egypt,Aswan,Contemporary,24.0889,32.8998
+129,Kom_el-Shoqafa,Tomb,Greco-Roman,Alexandria,Alexandria,Greco-Roman,31.2001,29.9187
+130,Koubbeh_Palace,Palace,Ottoman,Greater Cairo,Cairo,Ottoman,30.0444,31.2357
+131,Lake_Timsah,Natural Site,Natural,Canal Zone,Ismailia,N/A,30.5852,32.2654
+132,Layer_Pyramid,Pyramid,Pharaonic,Greater Cairo,Zawiyet el-Aryan,Ancient Egyptian,29.9447,31.18
+133,Luxor_Museum,Museum,Contemporary,Upper Egypt,Luxor,Contemporary,25.6872,32.6396
+134,Luxor_Temple,Temple,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+135,Madrasah_of_Al-Nasir_Muhammad,Madrassa,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+136,Madrasah_of_Sarghatmish,Madrassa,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+137,Mahmoud_Khalil_Museum,Museum,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+138,Mallawi_Museum,Museum,Contemporary,Upper Egypt,Mallawi,Contemporary,27.7338,30.8442
+139,Mastabat_al-Fir'aun,Pyramid,Pharaonic,Greater Cairo,Saqqara,Ancient Egyptian,29.8712,31.2165
+140,Mausoleum_of_Aga_Khan,Tomb,Islamic,Upper Egypt,Aswan,Islamic,24.0889,32.8998
+141,Medinet_Madi,Temple,Pharaonic,Middle Egypt,Faiyum,Ancient Egyptian,29.3084,30.8428
+142,Meidum,Pyramid,Pharaonic,Middle Egypt,Beni Suef,Ancient Egyptian,29.0661,31.0994
+143,Mohandessin,Neighborhood,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+144,Mokattam,Neighborhood,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+145,Monastery_of_Saint_Anthony,Monastery,Coptic/Byzantine,Red Sea Coast,Red Sea,Coptic,27.2579,33.8116
+146,Monastery_of_Saint_Bishoy,Monastery,Coptic/Byzantine,Nile Delta,Wadi Natrun,Coptic,30.3578,30.3307
+147,Monastery_of_Saint_Macarius_the_Great,Monastery,Coptic/Byzantine,Nile Delta,Wadi Natrun,Coptic,30.3578,30.3307
+148,Monastery_of_Saint_Samuel_the_Confessor,Monastery,Coptic/Byzantine,Middle Egypt,Faiyum,Coptic,29.3084,30.8428
+149,Monastery_of_Saint_Simeon_in_Aswan,Monastery,Coptic/Byzantine,Upper Egypt,Aswan,Coptic,24.0889,32.8998
+150,Montaza_Palace,Palace,Contemporary,Alexandria,Alexandria,Contemporary,31.2001,29.9187
+151,Mortuary_Temple_of_Hatshepsut,Temple,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+152,Mortuary_Temple_of_Seti_I_in_Qurna,Temple,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+153,Mortuary_Temple_of_Thutmosis_III,Temple,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+154,Mosque-Madrassa_of_Sultan_Hassan,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+155,Mosque_of_Ibn_Tulun,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+156,Mosque_of_Qajmas_al-Ishaqi,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+157,Mosque_of_Qanibay_al-Muhammadi,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+158,Mosque_of_Qanibay_al-Rammah,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+159,Mosque_of_Saint_Ibrahim_El-Desouky,Mosque,Islamic,Nile Delta,Desouk,Islamic,31.1282,30.6433
+160,Mosque_of_Sultan_Abu_al-Ila,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+161,Mosque_of_Sultan_al-Muayyad,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+162,Mosque_of_Sultan_al-Zahir_Baybars,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+163,Mosque_of_al-Mahmudiya,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+164,Mosque_of_al-Maridani,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+165,Muhammad_Ali_Mosque,Mosque,Ottoman,Greater Cairo,Cairo,Ottoman,30.0444,31.2357
+166,Muizz_Street,Neighborhood,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+167,Museum_of_Constantine_P._Cavafy,Museum,Contemporary,Alexandria,Alexandria,Contemporary,31.2001,29.9187
+168,"Museum_of_Islamic_Art,_Cairo",Museum,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+169,Na'ama_Bay,Natural Site,Natural,Sinai,Sharm el-Sheikh,N/A,27.9158,34.33
+170,Nabq_Protected_Area,Natural Site,Natural,Sinai,Sharm el-Sheikh,N/A,27.9158,34.33
+171,New_Kalabsha,Temple,Pharaonic,Upper Egypt,Aswan,Ancient Egyptian,24.0889,32.8998
+172,Nilometer_in_Rhoda_Island,Monument,Pharaonic,Greater Cairo,Cairo,Ancient Egyptian,30.0444,31.2357
+173,"Nubia_Museum,_Aswan",Museum,Contemporary,Upper Egypt,Aswan,Contemporary,24.0889,32.8998
+174,Nyuserre_sun_temple,Temple,Pharaonic,Greater Cairo,Abu Ghurab,Ancient Egyptian,29.8971,31.1928
+175,Orman_Garden,Garden/Park,Contemporary,Greater Cairo,Cairo,Contemporary,30.0444,31.2357
+176,Osireion,Temple,Pharaonic,Upper Egypt,Abydos,Ancient Egyptian,26.1855,31.9196
+177,Paromeos_Monastery,Monastery,Coptic/Byzantine,Nile Delta,Wadi Natrun,Coptic,30.3578,30.3307
+178,Petrified_Forest_near_Maadi,Natural Site,Natural,Greater Cairo,Cairo,N/A,30.0444,31.2357
+179,Pharaon_Island,Fortress,Islamic,Sinai,Taba,Islamic,29.4964,34.8912
+180,"Pompey's_Pillar,_Alexandria",Monument,Greco-Roman,Alexandria,Alexandria,Greco-Roman,31.2001,29.9187
+181,Port_Said_Lighthouse,Lighthouse,Contemporary,Canal Zone,Port Said,Contemporary,31.2565,32.2841
+182,Port_Tewfik_Memorial,Monument,Contemporary,Canal Zone,Suez,Contemporary,29.9737,32.5495
+183,Ptolemaic_Temple_of_Hathor_in_Deir_el-Medina,Temple,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+184,Pyramid_of_Ahmose,Pyramid,Pharaonic,Upper Egypt,Abydos,Ancient Egyptian,26.1855,31.9196
+185,Pyramid_of_Amenemhat_I,Pyramid,Pharaonic,Greater Cairo,Lisht,Ancient Egyptian,29.5686,31.2214
+186,Pyramid_of_Amenemhat_III_in_Hawara,Pyramid,Pharaonic,Middle Egypt,Hawara,Ancient Egyptian,29.2724,30.9014
+187,Pyramid_of_Ameni_Qemau,Pyramid,Pharaonic,Greater Cairo,Dahshur,Ancient Egyptian,29.7911,31.2102
+188,Pyramid_of_Baka,Pyramid,Pharaonic,Greater Cairo,Zawiyet el-Aryan,Ancient Egyptian,29.9447,31.18
+189,Pyramid_of_Djedefra,Pyramid,Pharaonic,Greater Cairo,Abu Rawash,Ancient Egyptian,30.0285,31.0744
+190,Pyramid_of_Djedkare_Isesi,Pyramid,Pharaonic,Greater Cairo,Saqqara,Ancient Egyptian,29.8712,31.2165
+191,Pyramid_of_Djoser,Pyramid,Pharaonic,Greater Cairo,Saqqara,Ancient Egyptian,29.8712,31.2165
+192,Pyramid_of_Khafra,Pyramid,Pharaonic,Greater Cairo,Giza,Ancient Egyptian,29.9765,31.1313
+193,Pyramid_of_Khendjer,Pyramid,Pharaonic,Greater Cairo,Saqqara,Ancient Egyptian,29.8712,31.2165
+194,Pyramid_of_Khentkaus_II,Pyramid,Pharaonic,Greater Cairo,Saqqara,Ancient Egyptian,29.8712,31.2165
+195,Pyramid_of_Menkaure,Pyramid,Pharaonic,Greater Cairo,Giza,Ancient Egyptian,29.9765,31.1313
+196,Pyramid_of_Merenre_Nemtyemsaf_I,Pyramid,Pharaonic,Greater Cairo,Saqqara,Ancient Egyptian,29.8712,31.2165
+197,Pyramid_of_Neferefre,Pyramid,Pharaonic,Greater Cairo,Saqqara,Ancient Egyptian,29.8712,31.2165
+198,Pyramid_of_Neferirkare,Pyramid,Pharaonic,Greater Cairo,Saqqara,Ancient Egyptian,29.8712,31.2165
+199,Pyramid_of_Nyuserre_Ini,Pyramid,Pharaonic,Greater Cairo,Saqqara,Ancient Egyptian,29.8712,31.2165
+200,Pyramid_of_Pepi_I,Pyramid,Pharaonic,Greater Cairo,Saqqara,Ancient Egyptian,29.8712,31.2165
+201,Pyramid_of_Pepi_II,Pyramid,Pharaonic,Greater Cairo,Saqqara,Ancient Egyptian,29.8712,31.2165
+202,Pyramid_of_Qakare_Ibi,Pyramid,Pharaonic,Greater Cairo,Saqqara,Ancient Egyptian,29.8712,31.2165
+203,Pyramid_of_Sahure,Pyramid,Pharaonic,Greater Cairo,Abusir,Ancient Egyptian,29.9,31.2
+204,Pyramid_of_Seila,Pyramid,Pharaonic,Middle Egypt,Seila,Ancient Egyptian,29.3,30.9
+205,Pyramid_of_Senusret_I,Pyramid,Pharaonic,Greater Cairo,Lisht,Ancient Egyptian,29.5686,31.2214
+206,Pyramid_of_Senusret_II,Pyramid,Pharaonic,Middle Egypt,El Lahun,Ancient Egyptian,29.2334,30.968
+207,Pyramid_of_Teti,Pyramid,Pharaonic,Greater Cairo,Saqqara,Ancient Egyptian,29.8712,31.2165
+208,Pyramid_of_Unas,Pyramid,Pharaonic,Greater Cairo,Saqqara,Ancient Egyptian,29.8712,31.2165
+209,Pyramid_of_Userkaf,Pyramid,Pharaonic,Greater Cairo,Saqqara,Ancient Egyptian,29.8712,31.2165
+210,Qaed_Ibrahim_Mosque,Mosque,Islamic,Alexandria,Alexandria,Islamic,31.2001,29.9187
+211,Qalawun_complex,Complex,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+212,Qasr_Qarun,Temple,Pharaonic,Middle Egypt,Faiyum,Ancient Egyptian,29.3084,30.8428
+213,Qasr_al-Nil_Bridge,Bridge,Contemporary,Greater Cairo,Cairo,Contemporary,30.0444,31.2357
+214,Qubbet_el-Hawa,Tomb,Pharaonic,Upper Egypt,Aswan,Ancient Egyptian,24.0889,32.8998
+215,Qurnet_Murai,Tomb,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+216,Rahmanyia_island,Natural Site,Natural,Alexandria,Alexandria,N/A,31.2001,29.9187
+217,Ramesseum,Temple,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+218,Ras_Muhammad,Natural Site,Natural,Sinai,Sharm el-Sheikh,N/A,27.9158,34.33
+219,Ras_el-Tin_Palace,Palace,Ottoman,Alexandria,Alexandria,Ottoman,31.2001,29.9187
+220,Red_Monastery,Monastery,Coptic/Byzantine,Upper Egypt,Sohag,Coptic,26.559,31.6948
+221,Red_Pyramid,Pyramid,Pharaonic,Greater Cairo,Dahshur,Ancient Egyptian,29.7911,31.2102
+222,Relations_of_Egypt_and_Italy,Monument,Contemporary,Greater Cairo,Cairo,Contemporary,30.0444,31.2357
+223,Rhoda_Island,Natural Site,Pharaonic,Greater Cairo,Cairo,Ancient Egyptian,30.0444,31.2357
+224,Sabil_of_Abd_al-Rahman_Katkhuda,Fountain,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+225,Sadat_museum,Museum,Contemporary,Greater Cairo,Cairo,Contemporary,30.0444,31.2357
+226,Saint_Barbara_Church_in_Coptic_Cairo,Church,Coptic/Byzantine,Greater Cairo,Cairo,Coptic,30.0444,31.2357
+227,"Saint_Catherine's_Monastery,_Mount_Sinai",Monastery,Coptic/Byzantine,Sinai,Saint Catherine,Coptic,28.5561,33.976
+228,Saint_George_Church_in_Coptic_Cairo,Church,Coptic/Byzantine,Greater Cairo,Cairo,Coptic,30.0444,31.2357
+229,"Saint_Mark's_Coptic_Orthodox_Cathedral,_Cairo",Church,Coptic/Byzantine,Greater Cairo,Cairo,Coptic,30.0444,31.2357
+230,Saint_Mark_Coptic_Orthodox_Church_(Heliopolis),Church,Coptic/Byzantine,Greater Cairo,Cairo,Coptic,30.0444,31.2357
+231,"Saints_Sergius_and_Bacchus_Church,_Cairo",Church,Coptic/Byzantine,Greater Cairo,Cairo,Coptic,30.0444,31.2357
+232,Sakakini_Palace,Palace,Ottoman,Greater Cairo,Cairo,Ottoman,30.0444,31.2357
+233,San_Stefano_Grand_Plaza,Hotel,Contemporary,Alexandria,Alexandria,Contemporary,31.2001,29.9187
+234,Saqqara,Necropolis,Pharaonic,Greater Cairo,Saqqara,Ancient Egyptian,29.8712,31.2165
+235,Sayeda_Aisha_Mosque,Mosque,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+236,Sehel_Island,Natural Site,Pharaonic,Upper Egypt,Aswan,Ancient Egyptian,24.0889,32.8998
+237,Sha'ar_Hashamayim_Synagogue_(Cairo),Synagogue,Contemporary,Greater Cairo,Cairo,Contemporary,30.0444,31.2357
+238,Sha'b_Abu_el-Nuhas,Natural Site,Islamic,Red Sea Coast,Red Sea,Islamic,27.2579,33.8116
+239,"Shalalat_Garden,_Alexandria",Garden/Park,Contemporary,Alexandria,Alexandria,Contemporary,31.2001,29.9187
+240,Shepheard's_Hotel,Hotel,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+241,Siwa,Natural Site,Islamic,Western Desert,Siwa,Islamic,29.2036,25.5195
+242,Sohag_Stadium,Stadium,Contemporary,Upper Egypt,Sohag,Contemporary,26.559,31.6948
+243,Soma_Bay,Natural Site,Natural,Red Sea Coast,Hurghada,N/A,27.2579,33.8116
+244,Speos_Artemidos,Temple,Pharaonic,Upper Egypt,Minya,Ancient Egyptian,28.1099,30.7503
+245,Sphinx_of_Memphis,Monument,Pharaonic,Greater Cairo,Memphis,Ancient Egyptian,29.8451,31.2547
+246,"St._Catherine's_Cathedral,_Alexandria",Church,Coptic/Byzantine,Alexandria,Alexandria,Coptic,31.2001,29.9187
+247,Suez_Canal_Bridge,Bridge,Contemporary,Canal Zone,Suez,Contemporary,29.9737,32.5495
+248,Sulayman_Agha_al-Silahdar_Mosque,Mosque,Ottoman,Greater Cairo,Cairo,Ottoman,30.0444,31.2357
+249,Sulayman_Pasha_Mosque,Mosque,Ottoman,Greater Cairo,Cairo,Ottoman,30.0444,31.2357
+250,Sultan_Qaytbay_Complex,Complex,Islamic,Greater Cairo,Cairo,Islamic,30.0444,31.2357
+251,Synagogue_of_Moses_Maimonides,Synagogue,Medieval,Greater Cairo,Cairo,Medieval,30.0444,31.2357
+252,Syrian_Monastery,Monastery,Coptic/Byzantine,Nile Delta,Wadi Natrun,Coptic,30.3578,30.3307
+253,Temple_of_Derr,Temple,Pharaonic,Upper Egypt,Nubia,Ancient Egyptian,22.3372,31.6258
+254,Temple_of_Hibis,Temple,Pharaonic,Western Desert,Kharga,Ancient Egyptian,25.4486,30.5559
+255,Temple_of_Isis_in_Deir_el-Shelwit,Temple,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+256,Temple_of_Isis_in_Philae,Temple,Pharaonic,Upper Egypt,Aswan,Ancient Egyptian,24.0889,32.8998
+257,Temple_of_Khonsu_in_Karnak,Temple,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+258,Temple_of_Kom_Ombo,Temple,Pharaonic,Upper Egypt,Kom Ombo,Ancient Egyptian,24.4524,32.9279
+259,Temple_of_Seti_I_in_Abydos,Temple,Pharaonic,Upper Egypt,Abydos,Ancient Egyptian,26.1855,31.9196
+260,Theban_Necropolis,Tomb,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+261,"Tirbana_mosque,_Alexandria",Mosque,Islamic,Alexandria,Alexandria,Islamic,31.2001,29.9187
+262,Tomb_of_Hetepheres,Tomb,Pharaonic,Greater Cairo,Giza,Ancient Egyptian,29.9765,31.1313
+263,Tomb_of_Kheruef,Tomb,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+264,Tomb_of_Nakht_TT52,Tomb,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+265,Tomb_of_Nefertari,Tomb,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+266,Tomb_of_Unknown_Soldier_in_Cairo,Monument,Contemporary,Greater Cairo,Cairo,Contemporary,30.0444,31.2357
+267,Umm_Kulthum_Museum,Museum,Contemporary,Greater Cairo,Cairo,Contemporary,30.0444,31.2357
+268,Umm_el-Qaab,Tomb,Pharaonic,Upper Egypt,Abydos,Ancient Egyptian,26.1855,31.9196
+269,Unfinished_obelisk_in_Aswan,Monument,Pharaonic,Upper Egypt,Aswan,Ancient Egyptian,24.0889,32.8998
+270,Userkaf_sun_temple,Temple,Pharaonic,Greater Cairo,Abu Ghurab,Ancient Egyptian,29.8971,31.1928
+271,Valley_of_the_Golden_Mummies,Tomb,Pharaonic,Western Desert,Bahariya,Ancient Egyptian,28.3394,28.868
+272,Valley_of_the_Queens,Tomb,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+273,WV22,Tomb,Pharaonic,Upper Egypt,Luxor,Ancient Egyptian,25.6872,32.6396
+274,Wadi_Degla,Natural Site,Natural,Greater Cairo,Cairo,N/A,30.0444,31.2357
+275,Wadi_Hammamat,Natural Site,Pharaonic,Red Sea Coast,Eastern Desert,Ancient Egyptian,27.0,33.5
+276,Wadi_el-Raiyan,Natural Site,Natural,Middle Egypt,Faiyum,N/A,29.3084,30.8428
+277,Wadi_el_Gemal_National_Park,Natural Site,Natural,Upper Egypt,Marsa Alam,N/A,25.0656,34.8921
+278,White_Monastery,Monastery,Coptic/Byzantine,Upper Egypt,Sohag,Coptic,26.559,31.6948
+279,White_Pyramid_of_Amenemhat_II,Pyramid,Pharaonic,Greater Cairo,Dahshur,Ancient Egyptian,29.7911,31.2102

@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+*.env.local
+
+# ML artifacts (large binaries)
+*.pt
+*.bin
+*.pkl
+*.h5
+*.onnx
+audit_log.jsonl
+
+# Dataset images (too large for git)
+dataset/images/
+egyptian_landmarks_data/
+andito_subset/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+*.swp
+
+# Flutter / Dart
+mobile-app/build/
+mobile-app/.dart_tool/
+mobile-app/.packages
+mobile-app/ios/Pods/
+mobile-app/macos/Pods/
+mobile-app/android/.gradle/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# LaTeX build outputs
+*.aux
+*.log
+*.bbl
+*.blg
+*.toc
+*.lof
+*.lot
+*.out
+*.synctex.gz
