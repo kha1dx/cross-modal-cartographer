@@ -46,7 +46,7 @@ torch.set_num_threads(1)
 torch.set_num_interop_threads(1)
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
-BASE_DIR   = Path(__file__).parent.parent          # project root
+BASE_DIR   = Path(__file__).parent.parent.parent    # project root (Project/)
 V0_DIR     = BASE_DIR / "V0"
 EMB_DIR    = V0_DIR / "embeddings"
 DATA_DIR   = V0_DIR / "dataset"                    # contains images/

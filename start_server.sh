@@ -8,7 +8,7 @@
 
 set -e
 SCRIPT_DIR="${0:A:h}"
-VENV="${SCRIPT_DIR}/V0/.venv/bin/uvicorn"
+VENV="${SCRIPT_DIR}/../V0/.venv/bin/uvicorn"
 PORT="${1:-8000}"
 
 echo "Starting Cross-Modal Cartographer backend on port ${PORT}..."
