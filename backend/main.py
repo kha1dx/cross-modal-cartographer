@@ -7,9 +7,10 @@ GET  /api/cities — city list for frontend autocomplete
 GET  /nearby     — geo-nearest landmarks
 GET  /           — serves the web frontend
 
-Run from project root:
-    cd /Users/khal1dx/Desktop/khal1dx/GUC/Bach/Project
-    V0/.venv/bin/uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
+Run from the repo root (cross-modal-cartographer/):
+    ./start_server.sh
+or manually, with the venv active:
+    uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
 """
 
 # ── OpenMP / MPS guards MUST be first ────────────────────────────────────────
@@ -46,17 +47,33 @@ torch.set_num_threads(1)
 torch.set_num_interop_threads(1)
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
-BASE_DIR   = Path(__file__).parent.parent.parent    # project root (Project/)
-V0_DIR     = BASE_DIR / "V0"
-EMB_DIR    = V0_DIR / "embeddings"
-DATA_DIR   = V0_DIR / "dataset"                    # contains images/
-ANDITO_IMG = V0_DIR / "egyptian_landmarks_data" / "images"
-STATIC_DIR = Path(__file__).parent / "static"
-ENV_FILE   = V0_DIR / ".env"
+# The backend is self-contained: index/metadata ship in backend/artifacts/ and
+# the pipeline modules live in ../pipeline. A legacy fallback to a sibling V0/
+# folder is kept so the original development layout still runs unchanged.
+BACKEND_DIR  = Path(__file__).parent
+REPO_ROOT    = BACKEND_DIR.parent                   # cross-modal-cartographer/
+ARTIFACT_DIR = BACKEND_DIR / "artifacts"            # committed index + metadata
+PIPELINE_DIR = REPO_ROOT / "pipeline"               # kg_local.py, build_registry.py
+STATIC_DIR   = BACKEND_DIR / "static"
 
-# Make V0 modules importable
-sys.path.insert(0, str(V0_DIR))
+# Legacy dev layout (Project/V0/…): used only if the in-repo copies are absent.
+_V0_DIR      = REPO_ROOT.parent / "V0"
+
+# Embeddings/index: prefer the committed backend/artifacts, else fall back to V0.
+EMB_DIR = ARTIFACT_DIR if (ARTIFACT_DIR / "faiss_index_unified.bin").exists() \
+    or (ARTIFACT_DIR / "faiss_index.bin").exists() else _V0_DIR / "embeddings"
+
+# Optional image directories (1.2 GB — not shipped; thumbnails only).
+# Set IMAGES_DIR / ANDITO_IMAGES_DIR env vars to point at a local copy.
+DATA_DIR   = Path(os.getenv("IMAGES_DIR", _V0_DIR / "dataset"))
+ANDITO_IMG = Path(os.getenv("ANDITO_IMAGES_DIR", _V0_DIR / "egyptian_landmarks_data" / "images"))
+
+# .env is OPTIONAL — the KG is built locally from metadata, no Neo4j at runtime.
+ENV_FILE = REPO_ROOT / ".env"
 load_dotenv(ENV_FILE)
+
+# Make the in-repo pipeline modules importable (fall back to V0 dev layout).
+sys.path.insert(0, str(PIPELINE_DIR if PIPELINE_DIR.exists() else _V0_DIR))
 
 from kg_local import LocalKGClient                # noqa: E402
 from build_registry import CITY_COORDS, CITY_ALIASES as _REGISTRY_ALIASES  # noqa: E402
@@ -114,10 +131,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Serve dataset images
-app.mount("/images", StaticFiles(directory=str(DATA_DIR / "images")), name="images")
+# Serve dataset images (optional — 1.2 GB, not shipped in the repo).
+# Search, similarities and KG facts work without these; only thumbnails need them.
+_MAIN_IMG = DATA_DIR / "images"
+if _MAIN_IMG.exists():
+    app.mount("/images", StaticFiles(directory=str(_MAIN_IMG)), name="images")
 
-# Serve andito (Google Landmarks) images — flat directory
+# Serve andito (Google Landmarks) images — flat directory (also optional).
 if ANDITO_IMG.exists():
     app.mount("/andito-images", StaticFiles(directory=str(ANDITO_IMG)), name="andito-images")
 

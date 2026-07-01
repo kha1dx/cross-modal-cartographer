@@ -18,6 +18,11 @@ env/
 *.onnx
 audit_log.jsonl
 
+# ...but DO ship the runtime index + metadata so the backend runs on clone (~17 MB)
+!backend/artifacts/
+!backend/artifacts/faiss_index_unified.bin
+!backend/artifacts/faiss_metadata_unified.pkl
+
 # Dataset images (too large for git)
 dataset/images/
 egyptian_landmarks_data/

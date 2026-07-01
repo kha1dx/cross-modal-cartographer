@@ -82,6 +82,9 @@ cross-modal-cartographer/
 |-- backend/                       # FastAPI web server + frontend
 |   |-- main.py                    # All endpoints, CLIP/FAISS/KG integration
 |   |-- requirements.txt           # Python dependencies
+|   |-- artifacts/                 # Shipped so the app runs on clone (~17 MB)
+|   |   |-- faiss_index_unified.bin      # FAISS index (4,923 landmark vectors)
+|   |   |-- faiss_metadata_unified.pkl   # Aligned per-image metadata
 |   |-- static/
 |       |-- index.html             # Web UI (sketch canvas + results)
 |       |-- app.js                 # Canvas logic (Fabric.js)
@@ -125,17 +128,21 @@ cross-modal-cartographer/
 
 ## How to Run the Web Application
 
+> **TL;DR** — the repo is self-contained. Clone it, install the requirements,
+> run `./start_server.sh`, and the search engine works out of the box. No
+> dataset, no Neo4j, and no pipeline run are required. The only optional extra
+> is the raw image folder, needed solely to render result **thumbnails**.
+
 ### Prerequisites
 
 - **Python 3.11+**
-- **~4 GB free disk** (CLIP model downloads automatically on first run)
-- The **Egyptian Landmarks image dataset** (not included due to size -- see Step 2)
-- Precomputed **FAISS index + metadata** (not included -- see Step 2)
+- **~4 GB free disk** (the CLIP ViT-B/32 model downloads automatically on first run)
+- Everything else needed to run — the **FAISS index + metadata** (~17 MB) — ships in `backend/artifacts/`.
 
 ### Step 1: Clone and Install Dependencies
 
 ```bash
-git clone https://github.com/<your-username>/cross-modal-cartographer.git
+git clone https://github.com/kha1dx/cross-modal-cartographer.git
 cd cross-modal-cartographer
 
 python3 -m venv .venv
@@ -145,91 +152,46 @@ source .venv/bin/activate       # macOS/Linux
 pip install -r backend/requirements.txt
 ```
 
-### Step 2: Prepare the Data
-
-The image dataset and FAISS artifacts are too large for Git. Create the following directory structure and populate it:
-
-```
-cross-modal-cartographer/
-|-- V0/
-    |-- embeddings/
-    |   |-- faiss_index_unified.bin       # FAISS index (or faiss_index.bin)
-    |   |-- faiss_metadata_unified.pkl    # Aligned metadata (or faiss_metadata.pkl)
-    |-- dataset/
-    |   |-- images/                       # 279 landmark subdirectories with JPGs
-    |       |-- Great_Pyramid_of_Giza/
-    |       |-- Al-Azhar_Mosque/
-    |       |-- Karnak_Temple/
-    |       |-- ...
-    |-- .env                              # (Optional) Neo4j credentials
-```
-
-**Option A -- Build from scratch** (if you have the raw image dataset):
-
-```bash
-mkdir -p V0/embeddings V0/dataset
-
-# 1. Place images in V0/dataset/images/ (279 subdirectories)
-
-# 2. Copy pipeline scripts into V0 so notebooks can find them:
-cp pipeline/build_registry.py V0/
-cp pipeline/kg_local.py V0/
-cp pipeline/kg_query.py V0/
-
-# 3. Generate the landmark registry:
-cd V0
-python build_registry.py
-
-# 4. Run the pipeline notebooks in order:
-jupyter notebook
-# Open and run: phase0_andito.ipynb  (CLIP encoding + photo filter)
-# Open and run: phase2_andito.ipynb  (FAISS index construction)
-```
-
-**Option B -- Use prebuilt artifacts** (if you have them from a previous run):
-
-```bash
-mkdir -p V0/embeddings V0/dataset
-cp /path/to/faiss_index_unified.bin V0/embeddings/
-cp /path/to/faiss_metadata_unified.pkl V0/embeddings/
-# Copy or symlink your images directory:
-ln -s /path/to/landmark-images V0/dataset/images
-```
-
-### Step 3: (Optional) Set Up Neo4j
-
-The app works **without Neo4j** -- it uses an in-memory Knowledge Graph built from the FAISS metadata at startup via `kg_local.py` (NetworkX). For the full cloud KG:
-
-```bash
-cp pipeline/.env.example V0/.env
-# Edit V0/.env with your Neo4j AuraDB credentials
-
-cd V0 && python populate_neo4j.py
-```
-
-### Step 4: Copy Pipeline Modules for Backend Import
-
-The backend imports `kg_local.py` and `build_registry.py` from `V0/`. If not already there:
-
-```bash
-cp pipeline/kg_local.py V0/
-cp pipeline/build_registry.py V0/
-```
-
-### Step 5: Start the Server
-
-```bash
-source .venv/bin/activate
-uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
-```
-
-Or use the convenience script (expects `.venv` in `V0/`):
+### Step 2: Start the Server
 
 ```bash
 ./start_server.sh
 ```
 
-### Step 6: Open the App
+Or run uvicorn directly (with the venv active):
+
+```bash
+uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
+```
+
+The server loads the CLIP model, reads the FAISS index from `backend/artifacts/`,
+and builds the in-memory Knowledge Graph from the index metadata at startup.
+First launch takes ~30 s while CLIP downloads.
+
+### Step 3 (Optional): Enable Result Thumbnails
+
+Search, similarity scores, and KG facts all work without any images. To also
+render the landmark **thumbnails** in the results grid, point the backend at a
+local copy of the image folder via environment variables before starting:
+
+```bash
+export IMAGES_DIR=/path/to/dataset            # contains an images/ subfolder
+export ANDITO_IMAGES_DIR=/path/to/gld/images  # flat GLD image folder
+./start_server.sh
+```
+
+Without these, the app runs fine — result cards simply show a broken-image
+placeholder instead of a photo.
+
+### Step 4 (Optional): Cloud Neo4j and Rebuilding the Index
+
+The app never needs Neo4j at runtime — the KG is built locally from the index
+metadata via `pipeline/kg_local.py` (NetworkX). To reproduce the full cloud KG
+or rebuild the FAISS index from raw images, see
+[Running the ML Pipeline](#running-the-ml-pipeline) below and
+`pipeline/.env.example` for the Neo4j credential template.
+
+### Step 5: Open the App
 
 Open **[http://localhost:8000](http://localhost:8000)** in your browser.
 
